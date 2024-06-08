@@ -1,0 +1,733 @@
+/* ============================================================ START TEXT ===========================================================*/
+.input-group>.form-control, .input-group>.custom-select, .input-group>.custom-file, .input-group>.form-group {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+/* ============================================================== END TEXT =============================================================*/
+/* ========================================================= START TOOGLE BUTTON ===========================================================*/
+.togglebutton label {
+    cursor: pointer;
+    color: #AAA;
+}
+.togglebutton label input[type=checkbox]:checked+.toggle {
+    background-color: #3950e6;
+}
+/* ========================================================== END TOOGLE BUTTON =============================================================*/
+/* ============================================================ START BUTTON ===========================================================*/
+.btn.btn-primary-red {
+  color: #fff;
+  background-color: #1a3052;
+  border-color: #1a3052;
+  box-shadow: 0 2px 2px 0 rgb(25 46 80 / 53%), 0 3px 1px -2px rgb(27 48 81 / 55%), 0 1px 5px 0 rgb(25 46 79 / 47%);
+}
+
+.btn.btn-primary-red:hover {
+  color: #fff;
+  background-color: #101d30;
+  border-color: #101d30;
+}
+
+.btn.btn-primary-red:focus,
+.btn.btn-primary-red.focus,
+.btn.btn-primary-red:hover {
+  color: #fff;
+  background-color: #101d30;
+  border-color: #101d30;
+}
+
+.btn.btn-primary-red:active,
+.btn.btn-primary-red.active,
+.open>.btn.btn-primary-red.dropdown-toggle,
+.show>.btn.btn-primary-red.dropdown-toggle {
+  color: #fff;
+  background-color: #1f38b5;
+  border-color: #172c96;
+  box-shadow: 0 2px 2px 0 rgba(30, 57, 233, 0.14), 0 3px 1px -2px rgba(30, 40, 233, 0.2), 0 1px 5px 0 rgba(30, 40, 233, 0.12);
+}
+
+.btn.btn-primary-red:active:hover,
+.btn.btn-primary-red:active:focus,
+.btn.btn-primary-red:active.focus,
+.btn.btn-primary-red.active:hover,
+.btn.btn-primary-red.active:focus,
+.btn.btn-primary-red.active.focus,
+.open>.btn.btn-primary-red.dropdown-toggle:hover,
+.open>.btn.btn-primary-red.dropdown-toggle:focus,
+.open>.btn.btn-primary-red.dropdown-toggle.focus,
+.show>.btn.btn-primary-red.dropdown-toggle:hover,
+.show>.btn.btn-primary-red.dropdown-toggle:focus,
+.show>.btn.btn-primary-red.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #1f38b5;
+  border-color: #0c267b;
+}
+
+.open>.btn.btn-primary-red.dropdown-toggle.bmd-btn-icon {
+  color: inherit;
+  background-color: #1d3da5;
+}
+
+.open>.btn.btn-primary-red.dropdown-toggle.bmd-btn-icon:hover {
+  background-color: #1f3db5;
+}
+
+.btn.btn-primary-red.disabled:focus,
+.btn.btn-primary-red.disabled.focus,
+.btn.btn-primary-red:disabled:focus,
+.btn.btn-primary-red:disabled.focus {
+  background-color: #1d38a5;
+  border-color: #1d44a5;
+}
+
+.btn.btn-primary-red.disabled:hover,
+.btn.btn-primary-red:disabled:hover {
+  background-color: #1d28a5;
+  border-color: #1d2fa5;
+}
+
+.btn.btn-primary-red:focus,
+.btn.btn-primary-red:active,
+.btn.btn-primary-red:hover {
+  box-shadow: 0 2px 2px 0 rgb(25 46 80 / 53%), 0 3px 1px -2px rgb(27 48 81 / 55%), 0 1px 5px 0 rgb(25 46 79 / 47%);
+}
+
+.btn.btn-primary-red.btn-link {
+  background-color: transparent;
+  color: #1d3da5;
+  box-shadow: none;
+}
+
+.btn.btn-primary-red.btn-link:hover,
+.btn.btn-primary-red.btn-link:focus,
+.btn.btn-primary-red.btn-link:active {
+  background-color: transparent;
+  color: #1d34a5;
+}
+
+.fixed-plugin .btn.btn-primary-red {
+  color: #fff;
+  background-color: #1d34a5;
+  border-color: #1d2fa5;
+  box-shadow: 0 2px 2px 0 rgba(30, 47, 233, 0.14), 0 3px 1px -2px rgba(30, 57, 233, 0.2), 0 1px 5px 0 rgba(30, 40, 233, 0.12);
+}
+
+.fixed-plugin .btn.btn-primary-red:hover {
+  color: #fff;
+  background-color: #1f38b5;
+  border-color: #172896;
+}
+
+.fixed-plugin .btn.btn-primary-red:focus,
+.fixed-plugin .btn.btn-primary-red.focus,
+.fixed-plugin .btn.btn-primary-red:hover {
+  color: #fff;
+  background-color: #1f33b5;
+  border-color: #171d96;
+}
+
+.fixed-plugin .btn.btn-primary-red:active,
+.fixed-plugin .btn.btn-primary-red.active,
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle,
+.show>.fixed-plugin .btn.btn-primary-red.dropdown-toggle {
+  color: #fff;
+  background-color: #1f33b5;
+  border-color: #173096;
+  box-shadow: 0 2px 2px 0 rgba(30, 64, 233, 0.14), 0 3px 1px -2px rgba(30, 57, 233, 0.2), 0 1px 5px 0 rgba(30, 64, 233, 0.12);
+}
+
+.fixed-plugin .btn.btn-primary-red:active:hover,
+.fixed-plugin .btn.btn-primary-red:active:focus,
+.fixed-plugin .btn.btn-primary-red:active.focus,
+.fixed-plugin .btn.btn-primary-red.active:hover,
+.fixed-plugin .btn.btn-primary-red.active:focus,
+.fixed-plugin .btn.btn-primary-red.active.focus,
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle:hover,
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle:focus,
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle.focus,
+.show>.fixed-plugin .btn.btn-primary-red.dropdown-toggle:hover,
+.show>.fixed-plugin .btn.btn-primary-red.dropdown-toggle:focus,
+.show>.fixed-plugin .btn.btn-primary-red.dropdown-toggle.focus {
+  color: #fff;
+  background-color: #1f49b5;
+  border-color: #0c387b;
+}
+
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle.bmd-btn-icon {
+  color: inherit;
+  background-color: #1d2fa5;
+}
+
+.open>.fixed-plugin .btn.btn-primary-red.dropdown-toggle.bmd-btn-icon:hover {
+  background-color: #1f4fb5;
+}
+
+.fixed-plugin .btn.btn-primary-red.disabled:focus,
+.fixed-plugin .btn.btn-primary-red.disabled.focus,
+.fixed-plugin .btn.btn-primary-red:disabled:focus,
+.fixed-plugin .btn.btn-primary-red:disabled.focus {
+  background-color: #1d48a5;
+  border-color: #1d34a5;
+}
+
+.fixed-plugin .btn.btn-primary-red.disabled:hover,
+.fixed-plugin .btn.btn-primary-red:disabled:hover {
+  background-color: #1d2fa5;
+  border-color: #1d44a5;
+}
+
+.fixed-plugin .btn.btn-primary-red:focus,
+.fixed-plugin .btn.btn-primary-red:active,
+.fixed-plugin .btn.btn-primary-red:hover {
+  box-shadow: 0 14px 26px -12px rgba(30, 64, 233, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(30, 64, 233, 0.2);
+}
+
+.fixed-plugin .btn.btn-primary-red.btn-link {
+  background-color: transparent;
+  color: #305c9a;
+  box-shadow: none;
+}
+
+.fixed-plugin .btn.btn-primary-red.btn-link:hover,
+.fixed-plugin .btn.btn-primary-red.btn-link:focus,
+.fixed-plugin .btn.btn-primary-red.btn-link:active {
+  background-color: transparent;
+  color: #305c9a;
+}
+
+.btn.btn-transparant {
+    background: #fff0;
+    color: #7a7a7a;
+    border: 1px solid #7a7a7a;
+}
+.show>.btn.dropdown-toggle, .show>.btn.dropdown-toggle:hover, .show>.btn.dropdown-toggle:focus{
+    color: #333;
+    background-color: #eeeeee;
+    border-color: #7a7a7a;
+    box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
+}
+
+/* ============================================================== END BUTTON =============================================================*/
+/* ============================================================ START DROPDOWN ===========================================================*/
+.dropdown-menu .dropdown-item:hover, .dropdown-menu .dropdown-item:focus, .dropdown-menu a:hover, .dropdown-menu a:focus, .dropdown-menu a:active, .dropdown-menu a.selected {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(39, 57, 176, 0.4);
+  background-color: #305c9a !important;
+  color: #fff !important;
+}
+#dropdownNotif{
+    max-height: 400px;
+    overflow-x: auto;
+}
+/* ============================================================= END DROPDOWN ============================================================*/
+/* ============================================================= START SCROLL ============================================================*/
+.ps-container:hover>.ps-scrollbar-y-rail:hover {
+    background-color: #eee0 !important;
+    opacity: 0.9;
+}.ps-container:hover>.ps-scrollbar-y-rail {
+    background-color: #eee0 !important;
+}
+/* ============================================================== END SCROLL =============================================================*/
+/* =========================================================== START PAGINATION =============================================================*
+ul.pagination>li {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+.material-datatables .dataTables_paginate .pagination .paginate_button .page-link {
+    border: 1px solid #f44336;
+}
+.pagination>.page-item>.page-link, .pagination>.page-item>span {
+    color: #f44336;
+}
+.pagination>.page-item.disabled>.page-link, .pagination>.page-item.disabled>span {
+    color: #ffffff;
+    background: #c5c5c5;
+    border: 1px solid #a0a0a0 !important;
+}
+.pagination>.page-item>.page-link:hover {
+    color: #ffffff;
+    background: #f4433666;
+}
+* ============================================================ END PAGINATION ============================================================= */
+/* =========================================================== START BREADCRUMB =============================================================*/
+.breadcrumb {
+    background-color: #e9ecef00;
+    margin-bottom: 0px;
+}
+.breadcrumb-item {
+  font-size: 1.125rem;
+}
+.breadcrumb-item.old {
+    color: #6c757d;
+}
+.breadcrumb-item.active {
+    color: #305c9a;
+}
+/* ============================================================ END BREADCRUMB ============================================================= */
+/* ============================================================= START TABEL =============================================================*/
+.table .td-actions .btn {
+    margin: 0px;
+    padding: 7px;
+}
+.table-no-length .dataTables_length {
+    display: none;
+}
+/* ============================================================= END TABEL ============================================================= */
+/* ============================================================ START LABEL =============================================================*/
+.modal .modal-body .col-form-label, .modal .modal-body .label-on-right {
+    padding: 17px 5px 0 0;
+    text-align: right;
+    font-size: 14px;
+}
+.modal .modal-body .col-form-label-content {
+    padding: 17px 5px 0 0;
+    text-align: left;
+    font-size: 14px;
+}
+.tooltip {
+    z-index: 99 !important;
+}
+/* ============================================================= END LABEL ============================================================= */
+/* ============================================================ START MODAL =============================================================*/
+.modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+}
+.modal-backdrop.show {
+    opacity: 0.5;
+}
+h3.modal-title {
+  margin: 0px;
+}
+.modal-body {
+  padding-top: 0px !important;
+}
+
+/* ============================================================= END MODAL ============================================================= */
+/* ========================================================= START ANIMATION =============================================================*/
+.card:hover .card-actions-custom {
+  z-index:9;
+}
+.card .card-actions-custom {
+    top: 20px;
+    width: 80px;
+}
+/* =========================================================== END ANIMATION =============================================================*/
+/* ========================================================= START TYPE COLOR =============================================================*/
+.card .card-header-dgrey .card-icon,
+.card .card-header-dgrey .card-text,
+.card .card-header-dgrey:not(.card-header-icon):not(.card-header-text),
+.card.bg-warning,
+.card.card-rotate.bg-dgrey .front,
+.card.card-rotate.bg-dgrey .back {
+  background: linear-gradient(60deg, #4e4e4e, #808080);
+}
+.card .card-header-lgrey .card-icon,
+.card .card-header-lgrey .card-text,
+.card .card-header-lgrey:not(.card-header-icon):not(.card-header-text),
+.card.bg-warning,
+.card.card-rotate.bg-lgrey .front,
+.card.card-rotate.bg-lgrey .back {
+  background: linear-gradient(60deg, #e4e4e4, #d4d4d4);
+}
+
+.card .card-header-dgrey .card-icon,
+.card .card-header-dgrey:not(.card-header-icon):not(.card-header-text),
+.card .card-header-dgrey .card-text {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(146, 146, 146, 0.4);
+}
+.card .card-header-lgrey .card-icon,
+.card .card-header-lgrey:not(.card-header-icon):not(.card-header-text),
+.card .card-header-lgrey .card-text {
+  box-shadow: 0 4px 20px 0px rgba(0, 0, 0, 0.14), 0 7px 10px -5px rgba(111, 111, 111, 0.4);
+}
+
+.text-dgrey {
+  color: #555555 !important;
+}
+.text-lgrey {
+  color: #999999 !important;
+}
+/* ========================================================== END TYPE COLOR =============================================================*/
+/* ========================================================== START CALENDER =============================================================*/
+span.event-button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 10px;
+    color: #343d4a;
+    font-weight: 400;
+    cursor: pointer;
+    transition: .5s;
+}
+span.event-button:hover {
+    color: #fff;
+}
+
+  #btn-toogle-calender {
+    position: fixed;
+    transition: 0.5s;
+    z-index: 9999; /* Stay on top */
+      bottom: 30px;
+      right: 30px;
+  }
+  /* The sidebar menu */
+  .right-sidebar {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Stay on top */
+    bottom: 0;
+    right: 0;
+    background-color: #000000e0; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+  }
+
+  /* The sidebar links */
+  .right-sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .right-sidebar a:hover {
+    color: #f1f1f1;
+  }
+
+  /* Position and style the close button (top right corner) */
+  .right-sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  /* The button used to open the sidebar */
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+
+  .right-sidebar .card {
+    background: #fff0;
+  }
+
+  .right-sidebar .blur {
+    height: 100%; /* 100% Full-height */
+    width: 320px; /* 0 width - change this with JavaScript */
+    position: absolute; /* Stay in place */
+    z-index: 0; /* Stay on top */
+    top: 0;
+    right: 0;
+    background-color: #2727276b; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    filter: blur(20px);
+  }
+
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+  }
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .right-sidebar {padding-top: 15px;}
+    .right-sidebar a {font-size: 18px;}
+  }
+
+  .calender .data {
+      color: white;
+  }
+.calender .button {
+  cursor: pointer;
+    text-align: center;
+  transition: .5s;
+
+}
+.calender .button:hover {
+    text-align: center;
+    background: #505050;
+}
+.calender .title,.calender .title-day {
+  border-bottom: 3px solid #f9633200;
+  transition: .5s;
+  color: white;
+}
+.calender .title:hover {
+  border-bottom: 3px solid #fff;
+}
+
+
+.calender .btn-change {
+  color: #fff;
+  transition: .5s;
+}
+.calender .area {
+  display: table;
+  color: white;
+  font-weight: 300;
+  border-bottom: 1px solid #505050;
+  padding-bottom: 10px;
+}
+.calender .rows {
+  display: table-row;
+}
+.calender .head>div{
+  border-top: 1px solid #505050;
+  min-width: 46px;
+  max-width: 47px;
+  cursor: pointer;
+  padding: 5px;
+  display:table-cell;
+  line-height: 24px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.calender .circle {
+  display: inline-block;
+  position: relative;
+  border: 2px solid #50505000;
+}
+.calender .circle.active {
+    border: 2px solid #505050;
+}
+.calender .rows.content>.circle{
+  display:table-cell;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: .5s;
+  border: 1px solid #000ff;
+}
+.calender .row.content>.squre{
+  display:table-cell;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  transition: .5s;
+  border-radius: 5px;
+  border: 1px solid #eaebf0;
+}
+.calender .row.content>.squre .date{
+    line-height: 40px;
+}
+.calender .content>.circle.otherMonth:hover{
+  background: #505050;
+  color: white;
+}
+.calender .content>.circle.thisMonth:hover{
+  background: #505050;
+}
+.calender .row.content>.squre:hover{
+  background: #505050;
+  color: white;
+}
+.calender .content>div.today{
+  background: #505050;
+  border: 2px solid #0000;
+  color: white;
+  font-weight: 400;
+}
+.calender .content>div.today.active{
+  background: #505050;
+  border: 2px solid #000;
+  color: white;
+  font-weight: 400;
+}
+.calender .content>.squre.thisMonth{
+  background: #0033ff;
+  color: white;
+}
+.calender .content>div.otherMonth{
+  color: #505050;
+}
+.calender .circle .date {
+  line-height: 35px;
+}
+.calender .circle .marker {
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 28px;
+  max-height: 25px;
+  background: #505050;
+  border-radius: 50%;
+  border: 2px solid #000;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 1;
+}
+.calender .circle.otherMonth .marker {
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 28px;
+  max-height: 25px;
+  background: #212121;
+  border-radius: 50%;
+  border: 2px solid #0d1617;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 1;
+}
+.calender .squre .marker {
+  min-width: 25px;
+  min-height: 25px;
+  max-width: 28px;
+  max-height: 25px;
+  background-color: #3e80fa;
+  border-radius: 50%;
+  border: 2px solid white;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  z-index: 1;
+}
+
+.calender .data .header {
+    border-bottom: 2px solid #3253f9;
+}
+/* =========================================================== END CALENDER ============================================================= */
+
+.main-panel>.content {
+    padding: 0px 15px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+
+.has-danger .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    color: #3662f4;
+}
+.has-success .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    color: #4caf50;
+}
+
+.has-success input.has-background {
+    background: #4caf503b;
+}
+.has-danger input.has-background {
+    background: rgba(54, 70, 244, 0.23);
+}
+
+.has-danger select {
+    color: #f44336;
+}
+.has-success select {
+    color: #4caf50;
+}
+
+.bmd-label-floating-custom {
+    position: absolute;
+    margin-top: -20px;
+    font-size: 0.6875rem;
+}
+
+.card-wizard .choice .icon {
+    height: 60px;
+    width: 60px;
+    border: 2px solid #CCCCCC;
+    margin-bottom: 0px;
+}
+.card-wizard .choice i {
+    font-size: 30px;
+    line-height: 50px;
+}
+.card-wizard .choice.small .icon {
+    height: 30px;
+    width: 30px;
+    border: 2px solid #CCCCCC;
+    margin-bottom: 0px;
+}
+.card-wizard .choice.small i {
+    font-size: 20px;
+    line-height: 25px;
+}
+.card-wizard .choice:hover .icon, .choice:hover .icon, .choice.active .icon {
+    border-color: #4caf50 !important;
+    color: #4caf50 !important;
+    background: #4caf502e;
+}
+.card-wizard .choice:hover h6, .choice:hover h6, .choice.active h6,.card-wizard .choice:hover h7, .choice.active h7 {
+  color: #4caf50;
+}
+.card-wizard .tab-content {
+    min-height: 200px;
+}
+.card-stats .card-header .card-category:not([class*="text-"]) {
+    color: #999999;
+    font-size: 13px;
+}
+
+@media (max-width: 576px) {
+  .xs-hide {
+    display: none;
+  }
+}
+
+@media (min-width: 1281px) {
+    .card-medium-only {
+      display: none;
+    }
+    .card-medium-hide {
+      display: block;
+    }
+}
+@media (min-width: 991px) and (max-width: 1280px) {
+    .card-medium-only {
+      display: block;
+    }
+    .card-medium-hide {
+      display: none;
+    }
+    .card [class*="card-header-"] .card-icon-custom {
+        text-align: center;
+        border-radius: 3px;
+        background-color: #999999;
+        padding: 15px;
+        margin-top: -20px;
+        margin-right: 0px;
+        float: inherit;
+    }
+
+    .card .card-actions-custom {
+      width: calc(100% - 30px);
+    }
+}
+@media (max-width: 991px) {
+    .card-medium-only {
+      display: none;
+    }
+    .card-medium-hide {
+      display: block;
+    }
+}

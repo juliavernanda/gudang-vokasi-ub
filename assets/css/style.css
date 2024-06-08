@@ -1,0 +1,135 @@
+thead.bold tr th{
+    font-weight: bold !important;
+}
+button.btn.day {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin: 0px;
+}
+
+.transition {
+  transition: 0.5s;
+}
+
+.collapse ul li.nav-item {
+  padding-left: 20px;
+}
+.cursor {
+  cursor: pointer;
+}
+hr.divider, .divider {
+  border: 1px solid #00bcd4;
+}
+
+/*
+|--------------------------
+| Sase CSS
+|--------------------------
+*/
+
+.notification {
+/*  background-color: #555;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;*/
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.notification:hover {
+  background: red;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  padding: 5px 8px;
+  border-radius: 60%;
+  background: #f44336;
+  color: white;
+  z-index: 1;
+}
+
+.gambar{
+  width: 450px;
+  height: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  /*border-radius:50%; */
+}
+
+.gambar:hover {
+  box-shadow: 0 0 2px 1px rgba(249, 99, 50, 1);
+}
+.up {
+  margin-top: -45px;
+  margin-left: -12px;
+}
+
+.select2 {
+  width: 100% !important;
+/*  width: 450px!important; */
+}
+
+.card .loading {
+    width: 100%;
+    height: 100%;
+    background: #000000ad;
+    position: absolute;
+    z-index: 9;
+}
+
+
+@media (max-width: 768px) {
+
+  .up {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+}
+
+@media (max-width: 990px){
+  .select2 {
+  width: 300px!important;
+  }
+  .gambar{
+  width: 468px;
+  height: 200px;
+}
+}
+
+@media (max-width: 576px) {
+
+  .select2 {
+  width: 220px!important;
+
+  }
+}
+
+@media (max-width: 500px) {
+
+  .select2 {
+  width: 150px!important;
+
+  }
+  .gambar{
+  width: 416px;
+  height: 200px;
+}
+}
+
+@media (max-width: 400px) {
+
+  .select2 {
+  width: 120px!important;
+
+  }
+  .gambar{
+  width: 310px;
+  height: 200px;
+}
+}
